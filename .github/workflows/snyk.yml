@@ -1,11 +1,11 @@
-name: CRDA scan Java project 
+name: scan Java project 
 on:
   push:
   pull_request: 
 
 jobs:
   scan:
-    name: Analyse Java project
+    name: security-check-snyk
     runs-on: ubuntu-latest
 
     steps:
