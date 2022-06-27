@@ -24,7 +24,7 @@ jobs:
           distribution: temurin
           java-version: 11
       
-      - name: CRDA Scan and upload SARIF
+      - name: Run Snyk to check vulnerabilities
         id: scan
         uses: redhat-actions/crda@v1
         with:
