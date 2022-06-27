@@ -40,5 +40,12 @@ jobs:
       - name: Checkout the code
         uses: actions/checkout@v2
         continue-on-error: true
+  bu:  
+    name: port Scanner + SSL QL Check 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v2
+        continue-on-error: true
       
     
