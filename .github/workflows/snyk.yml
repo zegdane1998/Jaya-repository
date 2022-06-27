@@ -33,3 +33,12 @@ jobs:
 
       - name: Print Report Link
         run: echo ${{ steps.scan.outputs.report_link }}
+  test:  
+    name: node-js-scan
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v2
+        continue-on-error: true
+      
+    
